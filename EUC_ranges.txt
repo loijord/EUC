@@ -1,0 +1,49 @@
+brand,model,range,"expected range, overall","expected range, brand-specific"
+Gotway,Gotway MCM5 V2 460wh 84V,30.0,31.86,37.73
+Gotway,Begode/Gotway RS 1800Wh 100v,160.0,154.88,151.57
+Gotway,Begode/Gotway EX.N 19″ 2700Wh 100v,180.0,213.24,209.81
+Gotway,Begode (Extreme Bull) Commander 20” 3600 Wh 100v,230.0,263.17,262.96
+Gotway,Begode Mten4 750Wh,70.0,76.11,78.24
+Gotway,Gotway Nikola Plus 1800Wh,170.0,156.12,152.81
+Gotway,Gotway MCM5 800Wh V2,70.0,75.37,77.18
+Gotway,Begode(Gotway) Tesla V3 1500Wh 84V,120.0,136.99,134.49
+Gotway,Begode Master 2400Wh 134.4V V2,180.0,185.89,182.27
+Gotway,Extreme Bull (Begode) X-men Yellow HT 1800 Wh 100V,140.0,148.75,145.57
+Gotway,Begode Master Molicel P42a 2000Wh 134.4V,130.0,156.67,153.28
+Gotway,Begode Master PRO 4800wh 134V,300.0,293.8,301.76
+Gotway,Begode Master X 3600wh 134V,200.0,240.87,240.67
+Gotway,Gotway Mten3 512Wh,50.0,52.5,56.92
+Gotway,Gotway Mten3 460Wh,40.0,47.46,52.48
+Gotway,Gotway Nikola 1600Wh 84v,150.0,138.02,135.38
+Gotway,Gotway MCM5 800Wh,70.0,75.45,77.27
+Gotway,Gotway Tesla V2 1020Wh,100.0,96.08,96.1
+Gotway,Gotway Nikola Plus 2100Wh 84v,200.0,180.76,176.87
+Gotway,Gotway Msuper PRO (MSP) 1800 Wh 100v,160.0,156.12,152.81
+Gotway,Begode/Gotway EX 19” 2700Wh 100v,180.0,203.37,200.09
+Gotway,Begode/Gotway Monster PRO 24″ 3600Wh 100v,250.0,258.39,258.18
+Gotway,Gotway Nikola Plus 2700Wh 100v,210.0,231.2,227.47
+Inmotion,Inmotion v8f,55.0,51.16,48.55
+Inmotion,Inmotion v12 hs,160.0,146.83,150.95
+Inmotion,Inmotion v10f,55.0,89.53,88.79
+Inmotion,Inmotion v11,120.0,128.6,130.97
+Inmotion,Inmotion v8s 726Wh,70.0,72.31,70.44
+Inmotion,Inmotion v5f,35.0,31.25,28.03
+Inmotion,Inmotion v12 ht 1750 wh 100V,150.0,146.83,150.95
+Inmotion,Inmotion v13 Challenger,200.0,202.87,217.23
+Kingsong,Kingsong KS-14M 174 Wh,15.0,15.3,16.27
+Kingsong,Kingsong KS-18XL 1554Wh 2200W,130.0,139.05,134.68
+Kingsong,Kingsong S18,90.0,101.92,97.15
+Kingsong,Kingsong KS-16X,90.0,101.92,97.15
+Kingsong,Kingsong KS-18L,90.0,95.15,90.51
+Kingsong,Kingsong KS-16XS,90.0,95.15,90.51
+Kingsong,Kingsong S22 Eagle,200.0,179.63,179.31
+Kingsong,Kingsong KS-14M 210 Wh,20.0,19.2,19.75
+Kingsong,Kingsong KS-16S V2,75.0,81.49,77.23
+Kingsong,Kingsong KS-14D 420wh,40.0,40.78,39.2
+Kingsong,Kingsong KS-14D 340wh,30.0,33.21,32.36
+Kingsong,Kingsong KS-16S V2 680 Wh,60.0,65.67,62.24
+Leaperkim,Veteran Sherman Max 3600Wh 100V,220.0,265.63,265.63
+Leaperkim,Veteran Abrams 2700Wh 100V,200.0,192.67,192.67
+Leaperkim,Leaperkim Sherman-S 3600wh 100V,230.0,249.32,249.32
+Ninebot,Ninebot ONE S2,30.0,30.39,30.39
+Ninebot,Ninebot Z10,90.0,87.67,87.67

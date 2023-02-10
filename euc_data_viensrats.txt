@@ -1,0 +1,49 @@
+brand,model,speed,weight,range,wheel,battery,power
+Gotway,"Gotway MCM5 V2 460wh 84V",34.0,16.0,30.0,14.0,340.0,1500.0
+Gotway,"Begode/Gotway RS 1800Wh 100v",70.0,27.0,160.0,18.0,1800.0,2600.0
+Gotway,"Begode/Gotway EX.N 19″ 2700Wh 100v",70.0,33.0,180.0,20.0,2700.0,2800.0
+Gotway,"Begode (Extreme Bull) Commander 20” 3600 Wh 100v",80.0,38.0,230.0,19.0,3600.0,3000.0
+Gotway,"Begode Mten4 750Wh",57.0,13.0,70.0,11.0,750.0,1000.0
+Gotway,"Gotway Nikola Plus 1800Wh",60.0,25.0,170.0,17.0,1776.0,2000.0
+Gotway,"Gotway MCM5 800Wh V2",40.0,16.9,70.0,14.0,777.0,1500.0
+Gotway,"Begode(Gotway) Tesla V3 1500Wh 84V",50.0,22.0,120.0,16.0,1500.0,2000.0
+Gotway,"Begode Master 2400Wh 134.4V V2",80.0,36.0,180.0,19.0,2400.0,3500.0
+Gotway,"Extreme Bull (Begode) X-men Yellow HT 1800 Wh 100V",75.0,31.0,140.0,19.0,1800.0,2800.0
+Gotway,"Begode Master Molicel P42a 2000Wh 134.4V",80.0,36.0,130.0,19.0,2000.0,3500.0
+Gotway,"Begode Master PRO 4800wh 134V",122.0,53.5,300.0,22.0,4800.0,4500.0
+Gotway,"Begode Master X 3600wh 134V",122.0,48.0,200.0,22.0,3600.0,4500.0
+Gotway,"Gotway Mten3 512Wh",35.0,11.0,50.0,10.0,512.0,800.0
+Gotway,"Gotway Mten3 460Wh",25.0,10.0,40.0,10.0,460.0,800.0
+Gotway,"Gotway Nikola 1600Wh 84v",50.0,24.5,150.0,17.0,1554.0,2000.0
+Gotway,"Gotway MCM5 800Wh",40.0,16.8,70.0,14.0,777.0,1500.0
+Gotway,"Gotway Tesla V2 1020Wh",45.0,19.7,100.0,16.0,1020.0,2000.0
+Gotway,"Gotway Nikola Plus 2100Wh 84v",60.0,25.0,200.0,17.0,2072.0,2000.0
+Gotway,"Gotway Msuper PRO (MSP) 1800 Wh 100v",60.0,25.0,160.0,18.0,1776.0,2500.0
+Gotway,"Begode/Gotway EX 19” 2700Wh 100v",60.0,38.0,180.0,19.0,2700.0,3500.0
+Gotway,"Begode/Gotway Monster PRO 24″ 3600Wh 100v",85.0,40.0,250.0,24.0,3600.0,3500.0
+Gotway,"Gotway Nikola Plus 2700Wh 100v",60.0,25.0,210.0,17.0,2700.0,2000.0
+Inmotion,"Inmotion v8f",35.0,14.5,55.0,16.0,520.0,1000.0
+Inmotion,"Inmotion v12 hs",70.0,29.6,160.0,16.0,1750.0,2500.0
+Inmotion,"Inmotion v10f",40.0,20.6,55.0,16.0,960.0,2000.0
+Inmotion,"Inmotion v11",55.0,28.0,120.0,18.0,1500.0,2200.0
+Inmotion,"Inmotion v8s 726Wh",35.0,14.5,70.0,16.0,726.0,1000.0
+Inmotion,"Inmotion v5f",25.0,12.0,35.0,14.0,320.0,550.0
+Inmotion,"Inmotion v12 ht 1750 wh 100V",70.0,29.6,150.0,16.0,1750.0,2800.0
+Inmotion,"Inmotion v13 Challenger",90.0,50.0,200.0,22.0,3024.0,4500.0
+Kingsong,"Kingsong KS-14M 174 Wh",20.0,12.5,15.0,14.0,174.0,500.0
+Kingsong,"Kingsong KS-18XL 1554Wh 2200W",50.0,23.8,130.0,18.0,1554.0,2200.0
+Kingsong,"Kingsong S18",50.0,22.0,90.0,18.0,1110.0,2200.0
+Kingsong,"Kingsong KS-16X",50.0,22.0,90.0,18.0,1110.0,2200.0
+Kingsong,"Kingsong KS-18L",50.0,22.0,90.0,18.0,1036.0,2000.0
+Kingsong,"Kingsong KS-16XS",50.0,22.0,90.0,18.0,1036.0,2200.0
+Kingsong,"Kingsong S22 Eagle",70.0,32.0,200.0,20.0,2220.0,3300.0
+Kingsong,"Kingsong KS-14M 210 Wh",20.0,12.5,20.0,14.0,210.0,500.0
+Kingsong,"Kingsong KS-16S V2",35.0,17.0,75.0,16.0,840.0,1200.0
+Kingsong,"Kingsong KS-14D 420wh",30.0,14.5,40.0,14.0,420.0,800.0
+Kingsong,"Kingsong KS-14D 340wh",30.0,12.5,30.0,14.0,340.0,800.0
+Kingsong,"Kingsong KS-16S V2 680 Wh",35.0,17.0,60.0,16.0,680.0,1200.0
+Leaperkim,"Veteran Sherman Max 3600Wh 100V",75.0,37.0,220.0,20.0,3600.0,2800.0
+Leaperkim,"Veteran Abrams 2700Wh 100V",72.0,44.0,200.0,22.0,2700.0,3500.0
+Leaperkim,"Leaperkim Sherman-S 3600wh 100V",100.0,44.0,230.0,20.0,3600.0,3500.0
+Ninebot,"Ninebot ONE S2",24.0,11.4,30.0,14.0,310.0,500.0
+Ninebot,"Ninebot Z10",45.0,26.0,90.0,18.0,996.0,1800.0

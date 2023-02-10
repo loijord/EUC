@@ -1,0 +1,49 @@
+model,price
+Gotway MCM5 V2 460wh 84V,1099
+Begode/Gotway RS 1800Wh 100v,2099
+Begode/Gotway EX.N 19″ 2700Wh 100v,2599
+Begode (Extreme Bull) Commander 20” 3600 Wh 100v,3799
+Begode Mten4 750Wh,1349
+Gotway Nikola Plus 1800Wh,1999
+Gotway MCM5 800Wh V2,1349
+Begode(Gotway) Tesla V3 1500Wh 84V,1599
+Begode Master 2400Wh 134.4V V2,2999
+Extreme Bull (Begode) X-men Yellow HT 1800 Wh 100V,2200
+Begode Master Molicel P42a 2000Wh 134.4V,3199
+Begode Master PRO 4800wh 134V,4599
+Begode Master X 3600wh 134V,3999
+Gotway Mten3 512Wh,920
+Gotway Mten3 460Wh,890
+Gotway Nikola 1600Wh 84v,1490
+Gotway MCM5 800Wh,1050
+Gotway Tesla V2 1020Wh,1290
+Gotway Nikola Plus 2100Wh 84v,1990
+Gotway Msuper PRO (MSP) 1800 Wh 100v,1890
+Begode/Gotway EX 19” 2700Wh 100v,2850
+Begode/Gotway Monster PRO 24″ 3600Wh 100v,3950
+Gotway Nikola Plus 2700Wh 100v,2999
+Inmotion v8f,1299
+Inmotion v12 hs,2799
+Inmotion v10f,1599
+Inmotion v11,2599
+Inmotion v8s 726Wh,1399
+Inmotion v5f,799
+Inmotion v12 ht 1750 wh 100V,2799
+Inmotion v13 Challenger,4599
+Kingsong KS-14M 174 Wh,589
+Kingsong KS-18XL 1554Wh 2200W,2099
+Kingsong S18,2099
+Kingsong KS-16X,2099
+Kingsong KS-18L,1660
+Kingsong KS-16XS,1649
+Kingsong S22 Eagle,3099
+Kingsong KS-14M 210 Wh,649
+Kingsong KS-16S V2,1399
+Kingsong KS-14D 420wh,850
+Kingsong KS-14D 340wh,790
+Kingsong KS-16S V2 680 Wh,1249
+Veteran Sherman Max 3600Wh 100V,3499
+Veteran Abrams 2700Wh 100V,3500
+Leaperkim Sherman-S 3600wh 100V,3999
+Ninebot ONE S2,599
+Ninebot Z10,1690
