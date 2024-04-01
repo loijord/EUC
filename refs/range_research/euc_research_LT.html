@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>index</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>EUC_research_LT</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14595,18 +14595,1395 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Sveiki-apsilank%C4%99-vienara%C4%8Di%C5%B3-puslapyje">Sveiki apsilank&#281; vienara&#269;i&#371; puslapyje<a class="anchor-link" href="#Sveiki-apsilank%C4%99-vienara%C4%8Di%C5%B3-puslapyje">&#182;</a></h2><p><strong>Tai yra mano (Naktinio Saimono) pakurtas puslapis apie vienaračius. Keliones pradėjau nuo Kingsong 16S (kaina: 995€, greitis: 35km/h, nuvažiuojamas atstumas: 60km, rida: 5000km, pirktas iš Novastar) kurjerio darbui per Bolt/Wolt maisto platformas. Vienaračių kainos iš pažiūros didesnės, nei tarkim elektrinių dviračių ar paspirtukų, tačiau remonto išlaidos mažiausios, o įpratę važiuoti gali patvirtinti, kad važiavimas saugus ir fainas.</strong></p>
-<p><strong>Puslapio tikslas - supažindinti su pirmaisiais važinėjimo žingsniais, apžvelgti ir palyginti skirtingų modelių kainas bei kitus parametrus, teikti informaciją apie pirkimo vietas, o galiausiai - paskatinti vienaratininkų bendruomenės kūrimąsi ir keitimąsi naudinga informacija Lietuvoje</strong></p>
-<ul>
-<li><a href="./refs/first_steps/first_steps.html">Kaip išmokti važiuoti vienaračiu?</a></li>
-<li><a href="./refs/rent_research/rent_analysis.html">Kokią elektrinę priemonę nuomotis kurjerio darbui, jei norisi kuo greičiau susitaupyti vienaračiui?</a></li>
-<li>Gamintojai dažniausiai nurodo išpūstus vienu įkrovimu nuvažiuojamus atstumus. <a href="./refs/range_research/euc_research_LT.html">Kaip juos nustatyti tiksliau?</a></li>
-<li>Skirtingų vienaračių modelių kainos ir nuvažiuojami atstumai skiriasi. <a href="./refs/price_research/price_research.html">Kaip išsirinkti optimalų variantą už prieinamą kainą?</a></li>
-<li>Apie apsaugą nuo drėgmės.</li>
-<li>Kaip įmanoma išsisukti su pigesnėmis kainomis?</li>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput  celltag_user" data-mime-type="text/markdown">
+<h1 id="What's-the-real-range-of-EUC?">What's the real range of EUC?<a class="anchor-link" href="#What's-the-real-range-of-EUC?">&#182;</a></h1><p>Vienaračių tiekėjų nurodomi atstumai dažnai būna užkelti ir neatitinkantys tikrovės, todėl reiktų paieškoti kitokių būdų juos nustatyti.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput  celltag_user" data-mime-type="text/markdown">
+<h2 id="Goals:">Goals:<a class="anchor-link" href="#Goals:">&#182;</a></h2><ul>
+<li>Is there any way to predict a real EUC range by a data provided by manufacturers?</li>
+<li>Are there manufacturers providing ranges of their EUC not accurately?</li>
+<li>How do the newest models contributes to results of predicted ranges?</li>
+<li>Any improvemens of prediction model?</li>
 </ul>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput  celltag_user" data-mime-type="text/markdown">
+<h2 id="Data">Data<a class="anchor-link" href="#Data">&#182;</a></h2><p>I use data that is provided in <a href="https://viensrats.lv/product-category/unicycle/">https://viensrats.lv/product-category/unicycle/</a>, a Latvian shop of EUC.</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput  celltag_user">
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>brand</th>
+      <th>model</th>
+      <th>speed</th>
+      <th>weight</th>
+      <th>range</th>
+      <th>wheel</th>
+      <th>battery</th>
+      <th>power</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Gotway</td>
+      <td>Gotway MCM5 V2 460wh 84V</td>
+      <td>34.0</td>
+      <td>16.0</td>
+      <td>30.0</td>
+      <td>14.0</td>
+      <td>340.0</td>
+      <td>1500.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Gotway</td>
+      <td>Begode/Gotway RS 1800Wh 100v</td>
+      <td>70.0</td>
+      <td>27.0</td>
+      <td>160.0</td>
+      <td>18.0</td>
+      <td>1800.0</td>
+      <td>2600.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Gotway</td>
+      <td>Begode/Gotway EX.N 19″ 2700Wh 100v</td>
+      <td>70.0</td>
+      <td>33.0</td>
+      <td>180.0</td>
+      <td>20.0</td>
+      <td>2700.0</td>
+      <td>2800.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Gotway</td>
+      <td>Begode (Extreme Bull) Commander 20” 3600 Wh 100v</td>
+      <td>80.0</td>
+      <td>38.0</td>
+      <td>230.0</td>
+      <td>19.0</td>
+      <td>3600.0</td>
+      <td>3000.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Gotway</td>
+      <td>Begode Mten4 750Wh</td>
+      <td>57.0</td>
+      <td>13.0</td>
+      <td>70.0</td>
+      <td>11.0</td>
+      <td>750.0</td>
+      <td>1000.0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Gotway</td>
+      <td>Gotway Nikola Plus 1800Wh</td>
+      <td>60.0</td>
+      <td>25.0</td>
+      <td>170.0</td>
+      <td>17.0</td>
+      <td>1776.0</td>
+      <td>2000.0</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Gotway</td>
+      <td>Gotway MCM5 800Wh V2</td>
+      <td>40.0</td>
+      <td>16.9</td>
+      <td>70.0</td>
+      <td>14.0</td>
+      <td>777.0</td>
+      <td>1500.0</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Gotway</td>
+      <td>Begode(Gotway) Tesla V3 1500Wh 84V</td>
+      <td>50.0</td>
+      <td>22.0</td>
+      <td>120.0</td>
+      <td>16.0</td>
+      <td>1500.0</td>
+      <td>2000.0</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Gotway</td>
+      <td>Begode Master 2400Wh 134.4V V2</td>
+      <td>80.0</td>
+      <td>36.0</td>
+      <td>180.0</td>
+      <td>19.0</td>
+      <td>2400.0</td>
+      <td>3500.0</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Gotway</td>
+      <td>Extreme Bull (Begode) X-men Yellow HT 1800 Wh ...</td>
+      <td>75.0</td>
+      <td>31.0</td>
+      <td>140.0</td>
+      <td>19.0</td>
+      <td>1800.0</td>
+      <td>2800.0</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Gotway</td>
+      <td>Begode Master Molicel P42a 2000Wh 134.4V</td>
+      <td>80.0</td>
+      <td>36.0</td>
+      <td>130.0</td>
+      <td>19.0</td>
+      <td>2000.0</td>
+      <td>3500.0</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Gotway</td>
+      <td>Begode Master PRO 4800wh 134V</td>
+      <td>122.0</td>
+      <td>53.5</td>
+      <td>300.0</td>
+      <td>22.0</td>
+      <td>4800.0</td>
+      <td>4500.0</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Gotway</td>
+      <td>Begode Master X 3600wh 134V</td>
+      <td>122.0</td>
+      <td>48.0</td>
+      <td>200.0</td>
+      <td>22.0</td>
+      <td>3600.0</td>
+      <td>4500.0</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Gotway</td>
+      <td>Gotway Mten3 512Wh</td>
+      <td>35.0</td>
+      <td>11.0</td>
+      <td>50.0</td>
+      <td>10.0</td>
+      <td>512.0</td>
+      <td>800.0</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Gotway</td>
+      <td>Gotway Mten3 460Wh</td>
+      <td>25.0</td>
+      <td>10.0</td>
+      <td>40.0</td>
+      <td>10.0</td>
+      <td>460.0</td>
+      <td>800.0</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Gotway</td>
+      <td>Gotway Nikola 1600Wh 84v</td>
+      <td>50.0</td>
+      <td>24.5</td>
+      <td>150.0</td>
+      <td>17.0</td>
+      <td>1554.0</td>
+      <td>2000.0</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Gotway</td>
+      <td>Gotway MCM5 800Wh</td>
+      <td>40.0</td>
+      <td>16.8</td>
+      <td>70.0</td>
+      <td>14.0</td>
+      <td>777.0</td>
+      <td>1500.0</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Gotway</td>
+      <td>Gotway Tesla V2 1020Wh</td>
+      <td>45.0</td>
+      <td>19.7</td>
+      <td>100.0</td>
+      <td>16.0</td>
+      <td>1020.0</td>
+      <td>2000.0</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Gotway</td>
+      <td>Gotway Nikola Plus 2100Wh 84v</td>
+      <td>60.0</td>
+      <td>25.0</td>
+      <td>200.0</td>
+      <td>17.0</td>
+      <td>2072.0</td>
+      <td>2000.0</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Gotway</td>
+      <td>Gotway Msuper PRO (MSP) 1800 Wh 100v</td>
+      <td>60.0</td>
+      <td>25.0</td>
+      <td>160.0</td>
+      <td>18.0</td>
+      <td>1776.0</td>
+      <td>2500.0</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Gotway</td>
+      <td>Begode/Gotway EX 19” 2700Wh 100v</td>
+      <td>60.0</td>
+      <td>38.0</td>
+      <td>180.0</td>
+      <td>19.0</td>
+      <td>2700.0</td>
+      <td>3500.0</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Gotway</td>
+      <td>Begode/Gotway Monster PRO 24″ 3600Wh 100v</td>
+      <td>85.0</td>
+      <td>40.0</td>
+      <td>250.0</td>
+      <td>24.0</td>
+      <td>3600.0</td>
+      <td>3500.0</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Gotway</td>
+      <td>Gotway Nikola Plus 2700Wh 100v</td>
+      <td>60.0</td>
+      <td>25.0</td>
+      <td>210.0</td>
+      <td>17.0</td>
+      <td>2700.0</td>
+      <td>2000.0</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Inmotion</td>
+      <td>Inmotion v8f</td>
+      <td>35.0</td>
+      <td>14.5</td>
+      <td>55.0</td>
+      <td>16.0</td>
+      <td>520.0</td>
+      <td>1000.0</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Inmotion</td>
+      <td>Inmotion v12 hs</td>
+      <td>70.0</td>
+      <td>29.6</td>
+      <td>160.0</td>
+      <td>16.0</td>
+      <td>1750.0</td>
+      <td>2500.0</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Inmotion</td>
+      <td>Inmotion v10f</td>
+      <td>40.0</td>
+      <td>20.6</td>
+      <td>55.0</td>
+      <td>16.0</td>
+      <td>960.0</td>
+      <td>2000.0</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Inmotion</td>
+      <td>Inmotion v11</td>
+      <td>55.0</td>
+      <td>28.0</td>
+      <td>120.0</td>
+      <td>18.0</td>
+      <td>1500.0</td>
+      <td>2200.0</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Inmotion</td>
+      <td>Inmotion v8s 726Wh</td>
+      <td>35.0</td>
+      <td>14.5</td>
+      <td>70.0</td>
+      <td>16.0</td>
+      <td>726.0</td>
+      <td>1000.0</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Inmotion</td>
+      <td>Inmotion v5f</td>
+      <td>25.0</td>
+      <td>12.0</td>
+      <td>35.0</td>
+      <td>14.0</td>
+      <td>320.0</td>
+      <td>550.0</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Inmotion</td>
+      <td>Inmotion v12 ht 1750 wh 100V</td>
+      <td>70.0</td>
+      <td>29.6</td>
+      <td>150.0</td>
+      <td>16.0</td>
+      <td>1750.0</td>
+      <td>2800.0</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>Inmotion</td>
+      <td>Inmotion v13 Challenger</td>
+      <td>90.0</td>
+      <td>50.0</td>
+      <td>200.0</td>
+      <td>22.0</td>
+      <td>3024.0</td>
+      <td>4500.0</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-14M 174 Wh</td>
+      <td>20.0</td>
+      <td>12.5</td>
+      <td>15.0</td>
+      <td>14.0</td>
+      <td>174.0</td>
+      <td>500.0</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-18XL 1554Wh 2200W</td>
+      <td>50.0</td>
+      <td>23.8</td>
+      <td>130.0</td>
+      <td>18.0</td>
+      <td>1554.0</td>
+      <td>2200.0</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>Kingsong</td>
+      <td>Kingsong S18</td>
+      <td>50.0</td>
+      <td>22.0</td>
+      <td>90.0</td>
+      <td>18.0</td>
+      <td>1110.0</td>
+      <td>2200.0</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-16X</td>
+      <td>50.0</td>
+      <td>22.0</td>
+      <td>90.0</td>
+      <td>18.0</td>
+      <td>1110.0</td>
+      <td>2200.0</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-18L</td>
+      <td>50.0</td>
+      <td>22.0</td>
+      <td>90.0</td>
+      <td>18.0</td>
+      <td>1036.0</td>
+      <td>2000.0</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-16XS</td>
+      <td>50.0</td>
+      <td>22.0</td>
+      <td>90.0</td>
+      <td>18.0</td>
+      <td>1036.0</td>
+      <td>2200.0</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>Kingsong</td>
+      <td>Kingsong S22 Eagle</td>
+      <td>70.0</td>
+      <td>32.0</td>
+      <td>200.0</td>
+      <td>20.0</td>
+      <td>2220.0</td>
+      <td>3300.0</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-14M 210 Wh</td>
+      <td>20.0</td>
+      <td>12.5</td>
+      <td>20.0</td>
+      <td>14.0</td>
+      <td>210.0</td>
+      <td>500.0</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-16S V2</td>
+      <td>35.0</td>
+      <td>17.0</td>
+      <td>75.0</td>
+      <td>16.0</td>
+      <td>840.0</td>
+      <td>1200.0</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-14D 420wh</td>
+      <td>30.0</td>
+      <td>14.5</td>
+      <td>40.0</td>
+      <td>14.0</td>
+      <td>420.0</td>
+      <td>800.0</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-14D 340wh</td>
+      <td>30.0</td>
+      <td>12.5</td>
+      <td>30.0</td>
+      <td>14.0</td>
+      <td>340.0</td>
+      <td>800.0</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-16S V2 680 Wh</td>
+      <td>35.0</td>
+      <td>17.0</td>
+      <td>60.0</td>
+      <td>16.0</td>
+      <td>680.0</td>
+      <td>1200.0</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>Leaperkim</td>
+      <td>Veteran Sherman Max 3600Wh 100V</td>
+      <td>75.0</td>
+      <td>37.0</td>
+      <td>220.0</td>
+      <td>20.0</td>
+      <td>3600.0</td>
+      <td>2800.0</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>Leaperkim</td>
+      <td>Veteran Abrams 2700Wh 100V</td>
+      <td>72.0</td>
+      <td>44.0</td>
+      <td>200.0</td>
+      <td>22.0</td>
+      <td>2700.0</td>
+      <td>3500.0</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>Leaperkim</td>
+      <td>Leaperkim Sherman-S 3600wh 100V</td>
+      <td>100.0</td>
+      <td>44.0</td>
+      <td>230.0</td>
+      <td>20.0</td>
+      <td>3600.0</td>
+      <td>3500.0</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>Ninebot</td>
+      <td>Ninebot ONE S2</td>
+      <td>24.0</td>
+      <td>11.4</td>
+      <td>30.0</td>
+      <td>14.0</td>
+      <td>310.0</td>
+      <td>500.0</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>Ninebot</td>
+      <td>Ninebot Z10</td>
+      <td>45.0</td>
+      <td>26.0</td>
+      <td>90.0</td>
+      <td>18.0</td>
+      <td>996.0</td>
+      <td>1800.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput  celltag_user" data-mime-type="text/markdown">
+<h2 id="Insight">Insight<a class="anchor-link" href="#Insight">&#182;</a></h2><p>How will battery capacity affect a range of EUC? Let's check a Gotway brand. At the January of 2023 it has had 23 brands.</p>
+<p>In the first diagram, a rate of range and capacity tends to decrease as batteries get bigger. The point is, the more heavier EUC, the more load goes for motor and more power is consumed. A load contains not only rider's weight but also a weight of EUC. Majority of manufacturers provides a realistic range that involves both rider's weight (70 kilos usually) and EUC weight. As seen in a diagram, there's no proportion between realistic range and battery capacity.</p>
+<p>Taking this into account, a second diagram provides values of realistic ranges converted into theoretic ones assuming EUC is weightless. It seems reasonable that if load gets $k$ times smaller then we should expect $k$ times larger range:</p>
+$$k = (W + w)/W\text{ where: }\begin{cases}w\text{ is the weight of EUC} \\ W \text{ is the rider's weight}\end{cases}$$<p>So:</p>
+$$\text{Theoretic range} = k \times \text{range provided by manufacturer}$$<p>Indeed, in a second diagram proportion is clear.</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput  celltag_user">
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<style>.container { width:85% !important; }</style>
+<table>
+  <tr>
+    <td>
+    <iframe width=560 height=400 src="euc_range_research_plots/gotway_cmp1.html" frameborder="0"></iframe>
+    </td>
+    <td>
+    <iframe width=560 height=400 src="./euc_range_research_plots/gotway_cmp2.html" frameborder="0"></iframe>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput  celltag_user" data-mime-type="text/markdown">
+<p>However, the same is not straightforward for Kingsongs (12 models) in total. Declared range seems even more accurate than theoretic one:</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput  celltag_user">
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<style>.container { width:85% !important; }</style>
+<table>
+  <tr>
+    <td>
+    <iframe width=560 height=400 src="./euc_range_research_plots/kingsong_cmp1.html" frameborder="0"></iframe>
+    </td>
+    <td>
+    <iframe width=560 height=400 src="./euc_range_research_plots/kingsong_cmp2.html" frameborder="0"></iframe>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput  celltag_user" data-mime-type="text/markdown">
+<p>And for 8 models of Inmotion it's better:</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput  celltag_user">
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<style>.container { width:85% !important; }</style>
+<table>
+  <tr>
+    <td>
+    <iframe width=560 height=400 src="./euc_range_research_plots/inmotion_cmp1.html" frameborder="0"></iframe>
+    </td>
+    <td>
+    <iframe width=560 height=400 src="./euc_range_research_plots/inmotion_cmp2.html" frameborder="0"></iframe>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput  celltag_user" data-mime-type="text/markdown">
+<h3 id="How-do-the-newest-models-contributes-to-the-results-of-predicted-ranges?">How do the newest models contributes to the results of predicted ranges?<a class="anchor-link" href="#How-do-the-newest-models-contributes-to-the-results-of-predicted-ranges?">&#182;</a></h3><p>2022 brought us a huge progress in EUC World:</p>
+<ul>
+<li>Begode/Gotway released Begode Master PRO 4800Wh</li>
+<li>Kingsong released Kingsong S22 Eagle 2220Wh</li>
+<li>Inmotion released Inmotion v13 Challenger 3024Wh</li>
+</ul>
+<p>Check to see how it affects the results of range prediction:</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput  celltag_user">
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<style>.container { width:85% !important; }</style>
+<table>
+  <tr>
+    <td>
+    <iframe width=560 height=400 src="./euc_range_research_plots/gotway_cmp2.html" frameborder="0"></iframe>
+    </td>
+    <td>
+    <iframe width=560 height=400 src="./euc_range_research_plots/gotway_w.html" frameborder="0"></iframe>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    <iframe width=560 height=400 src="./euc_range_research_plots/kingsong_cmp2.html" frameborder="0"></iframe>
+    </td>
+    <td>
+    <iframe width=560 height=400 src="./euc_range_research_plots/kingsong_w.html" frameborder="0"></iframe>
+    </td>
+  </tr>
+  <tr>
+    <td>
+    <iframe width=560 height=400 src="./euc_range_research_plots/inmotion_cmp2.html" frameborder="0"></iframe>
+    </td>
+    <td>
+    <iframe width=560 height=400 src="./euc_range_research_plots/inmotion_w.html" frameborder="0"></iframe>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<ul>
+<li>Release of Inmotion V13 increases a correlation between battery and theoretical range signifantly. Ranges of other current models of Inmotion (especialy V12 HS and V12 HT) have been underestimated until V13 came.</li>
+<li>Release of Begode Master Pro stabilizes a trend as well. Though scenario is different. Current models of Begode/Gotway promises slightly less range than we could expect from a trend of older ones.</li>
+<li>In Kingsong world, correlation have been high until KS22 came. It looks like KS22 manufacturers provides range that's is too high to fit with a trend of previous models.</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput  celltag_user" data-mime-type="text/markdown">
+<p>Putting all the models together</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput  celltag_user">
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<iframe width=850 height=600 src="./euc_range_research_plots/allin.html" frameborder="0"></iframe>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput  celltag_user" data-mime-type="text/markdown">
+<h2 id="Overall">Overall<a class="anchor-link" href="#Overall">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput  celltag_user" data-mime-type="text/markdown">
+<p>Let $$k = (W + w)/W = 1 + w/70 \text{ where: }\begin{cases}w\text{ is the weight of EUC} \\ W \text{ is the rider's weight, usually 70}\end{cases}$$</p>
+<p>and $$\begin{cases} x = \text{battery capacity} \\ w = \text{weight of EUC}\end{cases}$$ 
+Then $r$ could be estimated by formula: $$r = \frac{111.72x + 7.58}{k} = \frac{111.72x + 7.58}{1 + w/60}$$ or slightly more accurate:</p>
+$$r = \frac{-4.25x^2 + 129.29x - 4.33}{k} = \frac{-4.25x^2 + 129.29x - 4.33}{1 + w/70}$$
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput  celltag_user" data-mime-type="text/markdown">
+<p>Similar estimations for theoretic range of specific brands:</p>
+<table>
+<thead>
+<tr>
+  <th style="text-align:left">Brand</th>
+  <th style="text-align:left">Linear approximation</th>
+  <th style="text-align:left">quadratic approximation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="text-align:left">Gotway</td>
+  <td style="text-align:left">$$109.543x + 11.606$$</td>
+  <td style="text-align:left">$$-1.045x² + 114.348x + 7.594$$</td>
+</tr>
+<tr>
+  <td style="text-align:left">Inmotion</td>
+  <td style="text-align:left">$$125.69x - 6.168$$</td>
+  <td style="text-align:left">$$-1.297x² + 129.915x - 8.603$$</td>
+</tr>
+<tr>
+  <td style="text-align:left">Kingsong</td>
+  <td style="text-align:left">$$116.563x - 1.539$$</td>
+  <td style="text-align:left">$$2.173x² + 113.128x - 0.572$$</td>
+</tr>
+</tbody>
+</table>
+<p>Comparison of treds of different brands:</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput  celltag_user">
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<iframe width=1000 height=600 src="./euc_range_research_plots/allin_trends.html" frameborder="0"></iframe>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>brand</th>
+      <th>model</th>
+      <th>range</th>
+      <th>expected range, overall</th>
+      <th>expected range, brand-specific</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Gotway</td>
+      <td>Gotway MCM5 V2 460wh 84V</td>
+      <td>30.0</td>
+      <td>31.86</td>
+      <td>37.73</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Gotway</td>
+      <td>Begode/Gotway RS 1800Wh 100v</td>
+      <td>160.0</td>
+      <td>154.88</td>
+      <td>151.57</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Gotway</td>
+      <td>Begode/Gotway EX.N 19″ 2700Wh 100v</td>
+      <td>180.0</td>
+      <td>213.24</td>
+      <td>209.81</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Gotway</td>
+      <td>Begode (Extreme Bull) Commander 20” 3600 Wh 100v</td>
+      <td>230.0</td>
+      <td>263.17</td>
+      <td>262.96</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Gotway</td>
+      <td>Begode Mten4 750Wh</td>
+      <td>70.0</td>
+      <td>76.11</td>
+      <td>78.24</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Gotway</td>
+      <td>Gotway Nikola Plus 1800Wh</td>
+      <td>170.0</td>
+      <td>156.12</td>
+      <td>152.81</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Gotway</td>
+      <td>Gotway MCM5 800Wh V2</td>
+      <td>70.0</td>
+      <td>75.37</td>
+      <td>77.18</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Gotway</td>
+      <td>Begode(Gotway) Tesla V3 1500Wh 84V</td>
+      <td>120.0</td>
+      <td>136.99</td>
+      <td>134.49</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Gotway</td>
+      <td>Begode Master 2400Wh 134.4V V2</td>
+      <td>180.0</td>
+      <td>185.89</td>
+      <td>182.27</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Gotway</td>
+      <td>Extreme Bull (Begode) X-men Yellow HT 1800 Wh ...</td>
+      <td>140.0</td>
+      <td>148.75</td>
+      <td>145.57</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Gotway</td>
+      <td>Begode Master Molicel P42a 2000Wh 134.4V</td>
+      <td>130.0</td>
+      <td>156.67</td>
+      <td>153.28</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Gotway</td>
+      <td>Begode Master PRO 4800wh 134V</td>
+      <td>300.0</td>
+      <td>293.80</td>
+      <td>301.76</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Gotway</td>
+      <td>Begode Master X 3600wh 134V</td>
+      <td>200.0</td>
+      <td>240.87</td>
+      <td>240.67</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Gotway</td>
+      <td>Gotway Mten3 512Wh</td>
+      <td>50.0</td>
+      <td>52.50</td>
+      <td>56.92</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Gotway</td>
+      <td>Gotway Mten3 460Wh</td>
+      <td>40.0</td>
+      <td>47.46</td>
+      <td>52.48</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Gotway</td>
+      <td>Gotway Nikola 1600Wh 84v</td>
+      <td>150.0</td>
+      <td>138.02</td>
+      <td>135.38</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Gotway</td>
+      <td>Gotway MCM5 800Wh</td>
+      <td>70.0</td>
+      <td>75.45</td>
+      <td>77.27</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Gotway</td>
+      <td>Gotway Tesla V2 1020Wh</td>
+      <td>100.0</td>
+      <td>96.08</td>
+      <td>96.10</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Gotway</td>
+      <td>Gotway Nikola Plus 2100Wh 84v</td>
+      <td>200.0</td>
+      <td>180.76</td>
+      <td>176.87</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Gotway</td>
+      <td>Gotway Msuper PRO (MSP) 1800 Wh 100v</td>
+      <td>160.0</td>
+      <td>156.12</td>
+      <td>152.81</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Gotway</td>
+      <td>Begode/Gotway EX 19” 2700Wh 100v</td>
+      <td>180.0</td>
+      <td>203.37</td>
+      <td>200.09</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Gotway</td>
+      <td>Begode/Gotway Monster PRO 24″ 3600Wh 100v</td>
+      <td>250.0</td>
+      <td>258.39</td>
+      <td>258.18</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Gotway</td>
+      <td>Gotway Nikola Plus 2700Wh 100v</td>
+      <td>210.0</td>
+      <td>231.20</td>
+      <td>227.47</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Inmotion</td>
+      <td>Inmotion v8f</td>
+      <td>55.0</td>
+      <td>51.16</td>
+      <td>48.55</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Inmotion</td>
+      <td>Inmotion v12 hs</td>
+      <td>160.0</td>
+      <td>146.83</td>
+      <td>150.95</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Inmotion</td>
+      <td>Inmotion v10f</td>
+      <td>55.0</td>
+      <td>89.53</td>
+      <td>88.79</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Inmotion</td>
+      <td>Inmotion v11</td>
+      <td>120.0</td>
+      <td>128.60</td>
+      <td>130.97</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Inmotion</td>
+      <td>Inmotion v8s 726Wh</td>
+      <td>70.0</td>
+      <td>72.31</td>
+      <td>70.44</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Inmotion</td>
+      <td>Inmotion v5f</td>
+      <td>35.0</td>
+      <td>31.25</td>
+      <td>28.03</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Inmotion</td>
+      <td>Inmotion v12 ht 1750 wh 100V</td>
+      <td>150.0</td>
+      <td>146.83</td>
+      <td>150.95</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>Inmotion</td>
+      <td>Inmotion v13 Challenger</td>
+      <td>200.0</td>
+      <td>202.87</td>
+      <td>217.23</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-14M 174 Wh</td>
+      <td>15.0</td>
+      <td>15.30</td>
+      <td>16.27</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-18XL 1554Wh 2200W</td>
+      <td>130.0</td>
+      <td>139.05</td>
+      <td>134.68</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>Kingsong</td>
+      <td>Kingsong S18</td>
+      <td>90.0</td>
+      <td>101.92</td>
+      <td>97.15</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-16X</td>
+      <td>90.0</td>
+      <td>101.92</td>
+      <td>97.15</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-18L</td>
+      <td>90.0</td>
+      <td>95.15</td>
+      <td>90.51</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-16XS</td>
+      <td>90.0</td>
+      <td>95.15</td>
+      <td>90.51</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>Kingsong</td>
+      <td>Kingsong S22 Eagle</td>
+      <td>200.0</td>
+      <td>179.63</td>
+      <td>179.31</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-14M 210 Wh</td>
+      <td>20.0</td>
+      <td>19.20</td>
+      <td>19.75</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-16S V2</td>
+      <td>75.0</td>
+      <td>81.49</td>
+      <td>77.23</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-14D 420wh</td>
+      <td>40.0</td>
+      <td>40.78</td>
+      <td>39.20</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-14D 340wh</td>
+      <td>30.0</td>
+      <td>33.21</td>
+      <td>32.36</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>Kingsong</td>
+      <td>Kingsong KS-16S V2 680 Wh</td>
+      <td>60.0</td>
+      <td>65.67</td>
+      <td>62.24</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>Leaperkim</td>
+      <td>Veteran Sherman Max 3600Wh 100V</td>
+      <td>220.0</td>
+      <td>265.63</td>
+      <td>265.63</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>Leaperkim</td>
+      <td>Veteran Abrams 2700Wh 100V</td>
+      <td>200.0</td>
+      <td>192.67</td>
+      <td>192.67</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>Leaperkim</td>
+      <td>Leaperkim Sherman-S 3600wh 100V</td>
+      <td>230.0</td>
+      <td>249.32</td>
+      <td>249.32</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>Ninebot</td>
+      <td>Ninebot ONE S2</td>
+      <td>30.0</td>
+      <td>30.39</td>
+      <td>30.39</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>Ninebot</td>
+      <td>Ninebot Z10</td>
+      <td>90.0</td>
+      <td>87.67</td>
+      <td>87.67</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Free-data">Free data<a class="anchor-link" href="#Free-data">&#182;</a></h2><p>Manufacturer provided characteristics of 47 brands: <a href="../euc_data_viensrats.txt"><code>.txt</code> file</a><br />
+Table of ranges derived here: <a href="../EUC_ranges.txt"><code>.txt</code> file</a></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput  celltag_user" data-mime-type="text/markdown">
+<p>It could also be accessed as a plain <a href="../EUC_ranges.txt"><code>.txt</code> file</a></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput  celltag_user" data-mime-type="text/markdown">
+<p>More <a href="https://forum.electricunicycle.org/topic/30297-best-way-to-estimate-expected-range-of-eucs-by-model-name-driving-conditions/#comment-439411">discussion on electricunicycle forum</a></p>
 
 </div>
 </div>

@@ -1,0 +1,82 @@
+Priemonė,Modelis,Kaina 24h,Kaina sav,Kaina mėn,Greitis,Atstumas,Krovimo laikas,Nuoroda
+Paspirtukas,Xiaomi M365 1S,10,35,70,25,27,5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/xiaomi-m365-1s-elektrinis-paspirtukas-9799
+Paspirtukas,Xiaomi mi 1S,5,35,70,25,30,5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/xiaomi-mi-1s-elektrinis-paspirtukas-16003
+Paspirtukas,Xiaomi M365,8,40,,25,27,4.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/xiaomi-m365-elektrinis-paspirtukas-9976
+Paspirtukas,XIAOMI MI 365,8,40,80,25,27,4.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/elektrinis-paspirtukas-xiaomi-mi-365-16422
+Paspirtukas,XIAOMI MI 365,12,60,120,25,27,4.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/xiaomi-mi-365-elektrinis-paspirtukas-18841
+Paspirtukas,XIAOMI MI 365,8,40,80,25,27,4.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/elektrinis-paspirtukas-xiaomi-mi-365-22629
+Paspirtukas,Xiaomi Mi M365,7,40,100,25,27,4.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/paspirtuko-nuoma-xiaomi-mi-m365-20868
+Paspirtukas,M365 Pro,7,45,,30,45,8.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/m365-pro-elektrinis-paspirtukas-12554
+Paspirtukas,Xiaomi M365 Pro,12,,,25,45,8.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/xiaomi-m365-pro-galimas-pristatymas-15335
+Paspirtukas,Xiaomi M365 Pro,12,60,200,25,45,8.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/elektrinis-paspirtukas-xiaomi-m365-pro-15430
+Paspirtukas,XIAOMI MI Pro 2,8,40,80,25,45,8.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/elektrinis-paspirtukas-xiaomi-mi-pro-2-19848
+Paspirtukas,XIAOMI Mi Pro 2,12,60,120,25,45,8.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/elektrinis-paspirtukas-xiaomi-mi-pro-2-21150
+Paspirtukas,XIAOMI Mi Pro 2,12,60,180,25,45,8.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/elektrinis-paspirtukas-xiaomi-mi-pro-2-21151
+Paspirtukas,Xiaomi Pro2,15,80,,25,45,8.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/xiomi-pro2-26100
+Paspirtukas,Xiaomi Pro2,9,35,,25,45,8.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/paspirtukas-xiaomi-pro-2-21080
+Paspirtukas,Xiaomi Pro2,12,50,150,25,45,8.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/xiaomi-pro-2-elektrinis-paspirtukas-21898
+Paspirtukas,Xiaomi m365 Pro2,12,60,100,25,45,8.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/xiaomi-m365-pro2-24475
+Paspirtukas,XIAOMI Mi 3,12,60,120,25,30,5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/xiaomi-mi-3-el-paspirtukas-22202
+Paspirtukas,XIAOMI 4,12,39,89,25,35,5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/elektrinis-paspirtukas-xiaomi-4-25227
+Paspirtukas,Xiaomi 4 Lite,8,25,49,25,20,5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/xiaomi-elektrinis-paspirtukas-4-lite-25228
+Paspirtukas,Mi Electric Scooter Pro2,15,76,200,25,45,5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/paspirtukas-45km-galingas-pro2-21675
+Paspirtukas,Mi Electric Scooter Pro2,15,76,200,25,45,5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/elektrinis-paspirtukas-21676
+Paspirtukas,Ninebot MAX G30,15,45,100,30,65,6,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/ninebot-max-g30-elektrinis-paspirtukai-14655
+Paspirtukas,Ninebot MAX G30,15,45,,30,65,6,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/ninebot-max-g30-elektriniai-paspirtukai-15016
+Paspirtukas,Ninebot Max G2,30,65,200,30,70,6,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/ninebot-max-g2-26371
+Paspirtukas,Xiaomi ninebot ES4,5,25,70,30,45,7,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/paspirtukas-xiaomi-ninebot-es4-22313
+Paspirtukas,E-Twow GT,15,80,180,45,50,4,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/e-twow-gt-paspirtukas-2022-15792
+Paspirtukas,Ninebot by Segway ES1,8,40,80,20,25,3.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/ninebot-by-segway-es1-el-paspirtukas-15811
+Paspirtukas,Segway Kickscooter ES,8,40,80,25,25,3.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/ninebot-by-segway-kickscooter-es-18760
+Paspirtukas,Segway Kickscooter ES,8,40,80,25,25,3.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/ninebot-by-segway-es2-el-paspirtukas-19217
+Paspirtukas,Segway,10,45,110,25,25,4,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/elektrinis-paspirtukas-segway-11798
+Paspirtukas,Inokim OX,27,120,300,25,46,7,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/inokim-ox-19268
+Paspirtukas,Inokim Ox Hero,25,150,400,45,50,7,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/inokim-ox-hero-26099
+Paspirtukas,Dualtron Mini Pro 17.5ah,30,200,600,45,55,8,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/dualtron-mini-pro-17-5ah-21337
+Paspirtukas,Maserati,14,70,140,25,25,4.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/elektrinis-paspirtukas-maserati-24511
+Vienaratis,Kingsong KS-14D,15,50,120,22,30,3.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/vienaratis-kingsong-ks-14d-22198
+Riedlentė,Longboard,10,42,,35,20,3,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/riedlente-elektrine-longboard-35km-h-18477
+Riedis,Riedis,6,30,70,8,7,5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/riedis-26619
+Dviratis,Kalnu E MTB Elektrinis,30,150,,45,35,,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/kalnu-e-mtb-elektrinis-dviratis-rent-19565
+Dviratis,Kalnu E MTB Elektrinis Bosch,30,100,,45,35,,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/kalnu-e-mtb-elektrinis-dviratis-bosch-19566
+Dviratis,Kalnu E MTB Fulas,50,200,,45,40,,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/kalnu-e-mtb-fulas-elektrinis-dviratis-26417
+Dviratis,Fiido D4s sulankstomas,15,70,260,35,40,,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/elektriniai-dviraciai-fiido-d4s-sulankst-16235
+Dviratis,Fiido D4s,10,50,190,30,40,,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/dviratis-elektrinis-fiido-d4s-pro-3-vnt-21346
+Dviratis,Merinda,15,65,,25,70,,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/merida-elektrinis-dviratis-24311
+Dviratis,Haibike Xduro RS FS,35,200,600,45,70,,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/elektrinis-dviratis-haibike-xduro-rs-fs-5835
+Dviratis,KROSS Trans Hybrid D28 M,40,200,600,45,100,,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/kross-trans-hybrid-d28-m-el-dviratis-22455
+Dviratis,ADO A20F Beast,29,149,249,25,40,4.5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/elektrinis-dviratis-ado-a20f-beast-25214
+Dviratis,Dviratis HIMO Z20,19,95,190,25,40,5,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/elektrinis-dviratis-himo-z20-25843
+Dviratis,KTM,25,100,,25,55,,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/ktm-el-dviratis-26008
+Dviratis,Downhill,30,180,500,55,100,,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/elektrinis-downhill-dviratis-mopedas-26380
+Dviratis,FAT,10,50,130,45,50,,https://www.dalinuosi.lt/dviraciu-paspirtuku-nuoma/vilnius/elektrinis-fat-dviratis-27451
+Paspirtukas,Ninebot ES,15,20,60,25,15,3.5,https://www.rentebike.lt/elektriniai-nuomai
+Paspirtukas,Ninebot MAX G30,20,45,120,25,65,6,https://www.rentebike.lt/elektriniai-nuomai
+Paspirtukas,Ninebot MAX RANGE,30,80,250,25,120,,https://www.rentebike.lt/elektriniai-nuomai
+Paspirtukas,Ninebot MAX G2,30,70,200,25,70,6,https://www.rentebike.lt/elektriniai-nuomai
+Paspirtukas,Ninebot P100,35,120,,48,100,7,https://www.rentebike.lt/elektriniai-nuomai
+Paspirtukas,Inokim OXO,40,120,,52,120,,https://www.rentebike.lt/elektriniai-nuomai
+Dviratis,Fiido Kurjeriams,25,80,280,25,150,,https://www.rentebike.lt/elektriniai-nuomai
+Dviratis,Fiido Q2,35,100,,45,100,,https://www.rentebike.lt/elektriniai-nuomai
+Dviratis,Fiido 4S,20,50,,25,50,,https://www.rentebike.lt/elektriniai-nuomai
+Dviratis,Himo Z20,20,50,,25,50,,https://www.rentebike.lt/elektriniai-nuomai
+Dviratis,DUOTTS C29,20,80,,45,50,,https://www.rentebike.lt/elektriniai-nuomai
+Dviratis,Bulls,25,70,,25,90,,https://www.rentebike.lt/elektriniai-nuomai
+Dviratis,White e trecking,30,85,,25,130,,https://www.rentebike.lt/elektriniai-nuomai
+Dviratis,Scott Aspect,35,90,,25,200,,https://www.rentebike.lt/elektriniai-nuomai
+Dviratis,Fiido T1 PRO,35,120,,45,150,,https://www.rentebike.lt/elektriniai-nuomai
+Dviratis,Engwe EP-2PRO,30,90,,35,70,,https://www.rentebike.lt/elektriniai-nuomai
+Dviratis,Custom MB,35,120,,45,120,,https://www.rentebike.lt/elektriniai-nuomai
+Paspirtukas,Ninebot MAX G30,20,45,130,30,65,6,https://www.shift.lt/puslapis/15-elektriniu-paspirtuku-ir-elektriniu-dviraciu-nuoma
+Paspirtukas,Ninebot MAX Range,25,75,240,25,65,9,https://www.shift.lt/puslapis/15-elektriniu-paspirtuku-ir-elektriniu-dviraciu-nuoma
+Dviratis,Fiido kurjeriams,25,80,280,25,150,,https://www.shift.lt/puslapis/15-elektriniu-paspirtuku-ir-elektriniu-dviraciu-nuoma
+Traktorius,Vokbike,19,,369,25,100,,https://vokbikes.com/slots-prices-vilnius/
+Paspirtukas,Ninebot G30 MAX,20,50,100,30,65,6,https://rideme.lt/
+Dviratis,EBike su Bosch,,90,,45,35,,https://rideme.lt/
+Paspirtukas,Ninebot MAX G30LE,25,55,151,25,40,6.5,https://nopedalsrent.lt/product/elektrinio-paspirtuko-ninebot-max-g30le-nuoma/
+Paspirtukas,Cityway Max 10″ 500W,25,55,151,30,65,6,https://nopedalsrent.lt/product/elektrinio-paspirtuko-ninebot-max-g30le-nuoma/
+Paspirtukas,Xiaomi M365 1S,10,30,,25,30,5,https://zaiskit.lt/elektriniu-paspirtuku-nuoma-vilniuje
+Paspirtukas,Ninebot Max G30,7,40,,30,65,6,https://zaiskit.lt/elektriniu-paspirtuku-nuoma-vilniuje
+Paspirtukas,Ninebot Max G2,30,65,,35,65,6,https://zaiskit.lt/elektriniu-paspirtuku-nuoma-vilniuje
+Dviratis,Fiido D4s Pro,15,65,,35,90,,https://zaiskit.lt/elektriniu-paspirtuku-nuoma-vilniuje
+Dviratis,Fiido L3,,80,,40,200,,https://zaiskit.lt/elektriniu-paspirtuku-nuoma-vilniuje

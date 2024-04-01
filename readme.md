@@ -9,3 +9,8 @@ All the scripts I upload sit in Jupyter Notebooks. Then I run:
 ``` jupyter nbconvert --to html --no-input --TagRemovePreprocessor.remove_cell_tags <my_tag> <my.ipynb>```
 
 and [convert my notebooks in HTML](https://mljar.com/blog/jupyter-notebook-hide-code/) to make it ready for production use.
+
+Useful links:
+
+* [https://www.electricunicycles.eu/product_catalog](https://www.electricunicycles.eu/product_catalog)
+* [https://www.vrooomin.com/best-electric-unicycles](https://www.vrooomin.com/best-electric-unicycles)

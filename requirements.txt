@@ -2,3 +2,5 @@ plotly
 pandas
 numpy
 jupyter
+tabulate
+jupyter_contrib_nbextensions

@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>price_research</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>first_steps</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14595,762 +14595,121 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput  celltag_user" data-mime-type="text/markdown">
-<p>The parameters of EUC I use are taken mostly from <a href="https://viensrats.lv/">https://viensrats.lv/</a>, accesible at <a href="euc_data_viensrats.txt"><code>euc_data_viensrats.txt</code></a></p>
-<p>Prices based on <a href="https://viensrats.lv/">https://viensrats.lv/</a> at 2023-01-20, accesible at <a href="EUC_prices.txt"><code>EUC_prices.txt</code></a></p>
-<p>Expected ranges have been derived in a <a href="euc_research.html">previous research</a>, accessible at <a href="EUC_ranges.txt"><code>EUC_ranges.txt</code></a></p>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Kaip-i%C5%A1mokti-va%C5%BEiuoti-vienara%C4%8Diu-ir-ko-tik%C4%97tis-i%C5%A1mokus">Kaip i&#353;mokti va&#382;iuoti vienara&#269;iu ir ko tik&#279;tis i&#353;mokus<a class="anchor-link" href="#Kaip-i%C5%A1mokti-va%C5%BEiuoti-vienara%C4%8Diu-ir-ko-tik%C4%97tis-i%C5%A1mokus">&#182;</a></h2><p>Padėka <a href="https://www.youtube.com/@UStride">YouTuberiui U-Stride</a> - vieninteliam, pas kurį pavyko aptikti nuoseklų video, kaip mokytis važiuoti vienaračiu:</p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput  celltag_user">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputArea-child">
 
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/95Oih2GN718"></iframe> 
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+</div>
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>brand</th>
-      <th>model</th>
-      <th>speed</th>
-      <th>weight</th>
-      <th>range</th>
-      <th>wheel</th>
-      <th>battery</th>
-      <th>power</th>
-      <th>price</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Gotway</td>
-      <td>Gotway MCM5 V2 460wh 84V</td>
-      <td>34.0</td>
-      <td>16.0</td>
-      <td>31.86</td>
-      <td>14.0</td>
-      <td>340.0</td>
-      <td>1500.0</td>
-      <td>1099</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Gotway</td>
-      <td>Begode/Gotway RS 1800Wh 100v</td>
-      <td>70.0</td>
-      <td>27.0</td>
-      <td>154.88</td>
-      <td>18.0</td>
-      <td>1800.0</td>
-      <td>2600.0</td>
-      <td>2099</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Gotway</td>
-      <td>Begode/Gotway EX.N 19″ 2700Wh 100v</td>
-      <td>70.0</td>
-      <td>33.0</td>
-      <td>213.24</td>
-      <td>20.0</td>
-      <td>2700.0</td>
-      <td>2800.0</td>
-      <td>2599</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Gotway</td>
-      <td>Begode (Extreme Bull) Commander 20” 3600 Wh 100v</td>
-      <td>80.0</td>
-      <td>38.0</td>
-      <td>263.17</td>
-      <td>19.0</td>
-      <td>3600.0</td>
-      <td>3000.0</td>
-      <td>3799</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Gotway</td>
-      <td>Begode Mten4 750Wh</td>
-      <td>57.0</td>
-      <td>13.0</td>
-      <td>76.11</td>
-      <td>11.0</td>
-      <td>750.0</td>
-      <td>1000.0</td>
-      <td>1349</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Gotway</td>
-      <td>Gotway Nikola Plus 1800Wh</td>
-      <td>60.0</td>
-      <td>25.0</td>
-      <td>156.12</td>
-      <td>17.0</td>
-      <td>1776.0</td>
-      <td>2000.0</td>
-      <td>1999</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>Gotway</td>
-      <td>Gotway MCM5 800Wh V2</td>
-      <td>40.0</td>
-      <td>16.9</td>
-      <td>75.37</td>
-      <td>14.0</td>
-      <td>777.0</td>
-      <td>1500.0</td>
-      <td>1349</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>Gotway</td>
-      <td>Begode(Gotway) Tesla V3 1500Wh 84V</td>
-      <td>50.0</td>
-      <td>22.0</td>
-      <td>136.99</td>
-      <td>16.0</td>
-      <td>1500.0</td>
-      <td>2000.0</td>
-      <td>1599</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>Gotway</td>
-      <td>Begode Master 2400Wh 134.4V V2</td>
-      <td>80.0</td>
-      <td>36.0</td>
-      <td>185.89</td>
-      <td>19.0</td>
-      <td>2400.0</td>
-      <td>3500.0</td>
-      <td>2999</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>Gotway</td>
-      <td>Extreme Bull (Begode) X-men Yellow HT 1800 Wh ...</td>
-      <td>75.0</td>
-      <td>31.0</td>
-      <td>148.75</td>
-      <td>19.0</td>
-      <td>1800.0</td>
-      <td>2800.0</td>
-      <td>2200</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>Gotway</td>
-      <td>Begode Master Molicel P42a 2000Wh 134.4V</td>
-      <td>80.0</td>
-      <td>36.0</td>
-      <td>156.67</td>
-      <td>19.0</td>
-      <td>2000.0</td>
-      <td>3500.0</td>
-      <td>3199</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>Gotway</td>
-      <td>Begode Master PRO 4800wh 134V</td>
-      <td>122.0</td>
-      <td>53.5</td>
-      <td>293.80</td>
-      <td>22.0</td>
-      <td>4800.0</td>
-      <td>4500.0</td>
-      <td>4599</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>Gotway</td>
-      <td>Begode Master X 3600wh 134V</td>
-      <td>122.0</td>
-      <td>48.0</td>
-      <td>240.87</td>
-      <td>22.0</td>
-      <td>3600.0</td>
-      <td>4500.0</td>
-      <td>3999</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>Gotway</td>
-      <td>Gotway Mten3 512Wh</td>
-      <td>35.0</td>
-      <td>11.0</td>
-      <td>52.50</td>
-      <td>10.0</td>
-      <td>512.0</td>
-      <td>800.0</td>
-      <td>920</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>Gotway</td>
-      <td>Gotway Mten3 460Wh</td>
-      <td>25.0</td>
-      <td>10.0</td>
-      <td>47.46</td>
-      <td>10.0</td>
-      <td>460.0</td>
-      <td>800.0</td>
-      <td>890</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>Gotway</td>
-      <td>Gotway Nikola 1600Wh 84v</td>
-      <td>50.0</td>
-      <td>24.5</td>
-      <td>138.02</td>
-      <td>17.0</td>
-      <td>1554.0</td>
-      <td>2000.0</td>
-      <td>1490</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>Gotway</td>
-      <td>Gotway MCM5 800Wh</td>
-      <td>40.0</td>
-      <td>16.8</td>
-      <td>75.45</td>
-      <td>14.0</td>
-      <td>777.0</td>
-      <td>1500.0</td>
-      <td>1050</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>Gotway</td>
-      <td>Gotway Tesla V2 1020Wh</td>
-      <td>45.0</td>
-      <td>19.7</td>
-      <td>96.08</td>
-      <td>16.0</td>
-      <td>1020.0</td>
-      <td>2000.0</td>
-      <td>1290</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>Gotway</td>
-      <td>Gotway Nikola Plus 2100Wh 84v</td>
-      <td>60.0</td>
-      <td>25.0</td>
-      <td>180.76</td>
-      <td>17.0</td>
-      <td>2072.0</td>
-      <td>2000.0</td>
-      <td>1990</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>Gotway</td>
-      <td>Gotway Msuper PRO (MSP) 1800 Wh 100v</td>
-      <td>60.0</td>
-      <td>25.0</td>
-      <td>156.12</td>
-      <td>18.0</td>
-      <td>1776.0</td>
-      <td>2500.0</td>
-      <td>1890</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>Gotway</td>
-      <td>Begode/Gotway EX 19” 2700Wh 100v</td>
-      <td>60.0</td>
-      <td>38.0</td>
-      <td>203.37</td>
-      <td>19.0</td>
-      <td>2700.0</td>
-      <td>3500.0</td>
-      <td>2850</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>Gotway</td>
-      <td>Begode/Gotway Monster PRO 24″ 3600Wh 100v</td>
-      <td>85.0</td>
-      <td>40.0</td>
-      <td>258.39</td>
-      <td>24.0</td>
-      <td>3600.0</td>
-      <td>3500.0</td>
-      <td>3950</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>Gotway</td>
-      <td>Gotway Nikola Plus 2700Wh 100v</td>
-      <td>60.0</td>
-      <td>25.0</td>
-      <td>231.20</td>
-      <td>17.0</td>
-      <td>2700.0</td>
-      <td>2000.0</td>
-      <td>2999</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>Inmotion</td>
-      <td>Inmotion v8f</td>
-      <td>35.0</td>
-      <td>14.5</td>
-      <td>51.16</td>
-      <td>16.0</td>
-      <td>520.0</td>
-      <td>1000.0</td>
-      <td>1299</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>Inmotion</td>
-      <td>Inmotion v12 hs</td>
-      <td>70.0</td>
-      <td>29.6</td>
-      <td>146.83</td>
-      <td>16.0</td>
-      <td>1750.0</td>
-      <td>2500.0</td>
-      <td>2799</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>Inmotion</td>
-      <td>Inmotion v10f</td>
-      <td>40.0</td>
-      <td>20.6</td>
-      <td>89.53</td>
-      <td>16.0</td>
-      <td>960.0</td>
-      <td>2000.0</td>
-      <td>1599</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>Inmotion</td>
-      <td>Inmotion v11</td>
-      <td>55.0</td>
-      <td>28.0</td>
-      <td>128.60</td>
-      <td>18.0</td>
-      <td>1500.0</td>
-      <td>2200.0</td>
-      <td>2599</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>Inmotion</td>
-      <td>Inmotion v8s 726Wh</td>
-      <td>35.0</td>
-      <td>14.5</td>
-      <td>72.31</td>
-      <td>16.0</td>
-      <td>726.0</td>
-      <td>1000.0</td>
-      <td>1399</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>Inmotion</td>
-      <td>Inmotion v5f</td>
-      <td>25.0</td>
-      <td>12.0</td>
-      <td>31.25</td>
-      <td>14.0</td>
-      <td>320.0</td>
-      <td>550.0</td>
-      <td>799</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>Inmotion</td>
-      <td>Inmotion v12 ht 1750 wh 100V</td>
-      <td>70.0</td>
-      <td>29.6</td>
-      <td>146.83</td>
-      <td>16.0</td>
-      <td>1750.0</td>
-      <td>2800.0</td>
-      <td>2799</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>Inmotion</td>
-      <td>Inmotion v13 Challenger</td>
-      <td>90.0</td>
-      <td>50.0</td>
-      <td>202.87</td>
-      <td>22.0</td>
-      <td>3024.0</td>
-      <td>4500.0</td>
-      <td>4599</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>Kingsong</td>
-      <td>Kingsong KS-14M 174 Wh</td>
-      <td>20.0</td>
-      <td>12.5</td>
-      <td>15.30</td>
-      <td>14.0</td>
-      <td>174.0</td>
-      <td>500.0</td>
-      <td>589</td>
-    </tr>
-    <tr>
-      <th>32</th>
-      <td>Kingsong</td>
-      <td>Kingsong KS-18XL 1554Wh 2200W</td>
-      <td>50.0</td>
-      <td>23.8</td>
-      <td>139.05</td>
-      <td>18.0</td>
-      <td>1554.0</td>
-      <td>2200.0</td>
-      <td>2099</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>Kingsong</td>
-      <td>Kingsong S18</td>
-      <td>50.0</td>
-      <td>22.0</td>
-      <td>101.92</td>
-      <td>18.0</td>
-      <td>1110.0</td>
-      <td>2200.0</td>
-      <td>2099</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>Kingsong</td>
-      <td>Kingsong KS-16X</td>
-      <td>50.0</td>
-      <td>22.0</td>
-      <td>101.92</td>
-      <td>18.0</td>
-      <td>1110.0</td>
-      <td>2200.0</td>
-      <td>2099</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>Kingsong</td>
-      <td>Kingsong KS-18L</td>
-      <td>50.0</td>
-      <td>22.0</td>
-      <td>95.15</td>
-      <td>18.0</td>
-      <td>1036.0</td>
-      <td>2000.0</td>
-      <td>1660</td>
-    </tr>
-    <tr>
-      <th>36</th>
-      <td>Kingsong</td>
-      <td>Kingsong KS-16XS</td>
-      <td>50.0</td>
-      <td>22.0</td>
-      <td>95.15</td>
-      <td>18.0</td>
-      <td>1036.0</td>
-      <td>2200.0</td>
-      <td>1649</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>Kingsong</td>
-      <td>Kingsong S22 Eagle</td>
-      <td>70.0</td>
-      <td>32.0</td>
-      <td>179.63</td>
-      <td>20.0</td>
-      <td>2220.0</td>
-      <td>3300.0</td>
-      <td>3099</td>
-    </tr>
-    <tr>
-      <th>38</th>
-      <td>Kingsong</td>
-      <td>Kingsong KS-14M 210 Wh</td>
-      <td>20.0</td>
-      <td>12.5</td>
-      <td>19.20</td>
-      <td>14.0</td>
-      <td>210.0</td>
-      <td>500.0</td>
-      <td>649</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>Kingsong</td>
-      <td>Kingsong KS-16S V2</td>
-      <td>35.0</td>
-      <td>17.0</td>
-      <td>81.49</td>
-      <td>16.0</td>
-      <td>840.0</td>
-      <td>1200.0</td>
-      <td>1399</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>Kingsong</td>
-      <td>Kingsong KS-14D 420wh</td>
-      <td>30.0</td>
-      <td>14.5</td>
-      <td>40.78</td>
-      <td>14.0</td>
-      <td>420.0</td>
-      <td>800.0</td>
-      <td>850</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>Kingsong</td>
-      <td>Kingsong KS-14D 340wh</td>
-      <td>30.0</td>
-      <td>12.5</td>
-      <td>33.21</td>
-      <td>14.0</td>
-      <td>340.0</td>
-      <td>800.0</td>
-      <td>790</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>Kingsong</td>
-      <td>Kingsong KS-16S V2 680 Wh</td>
-      <td>35.0</td>
-      <td>17.0</td>
-      <td>65.67</td>
-      <td>16.0</td>
-      <td>680.0</td>
-      <td>1200.0</td>
-      <td>1249</td>
-    </tr>
-    <tr>
-      <th>43</th>
-      <td>Leaperkim</td>
-      <td>Veteran Sherman Max 3600Wh 100V</td>
-      <td>75.0</td>
-      <td>37.0</td>
-      <td>265.63</td>
-      <td>20.0</td>
-      <td>3600.0</td>
-      <td>2800.0</td>
-      <td>3499</td>
-    </tr>
-    <tr>
-      <th>44</th>
-      <td>Leaperkim</td>
-      <td>Veteran Abrams 2700Wh 100V</td>
-      <td>72.0</td>
-      <td>44.0</td>
-      <td>192.67</td>
-      <td>22.0</td>
-      <td>2700.0</td>
-      <td>3500.0</td>
-      <td>3500</td>
-    </tr>
-    <tr>
-      <th>45</th>
-      <td>Leaperkim</td>
-      <td>Leaperkim Sherman-S 3600wh 100V</td>
-      <td>100.0</td>
-      <td>44.0</td>
-      <td>249.32</td>
-      <td>20.0</td>
-      <td>3600.0</td>
-      <td>3500.0</td>
-      <td>3999</td>
-    </tr>
-    <tr>
-      <th>46</th>
-      <td>Ninebot</td>
-      <td>Ninebot ONE S2</td>
-      <td>24.0</td>
-      <td>11.4</td>
-      <td>30.39</td>
-      <td>14.0</td>
-      <td>310.0</td>
-      <td>500.0</td>
-      <td>599</td>
-    </tr>
-    <tr>
-      <th>47</th>
-      <td>Ninebot</td>
-      <td>Ninebot Z10</td>
-      <td>45.0</td>
-      <td>26.0</td>
-      <td>87.67</td>
-      <td>18.0</td>
-      <td>996.0</td>
-      <td>1800.0</td>
-      <td>1690</td>
-    </tr>
-  </tbody>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Išmokti vienaračiu - labai paprasta. Tiesiog tereikia treniruotis atlikti dvylika žingsnių, po kurių rezultatas bus pasiektas. Patartina treniruotėms skirti savaitę laiko po valandą per dieną. Pirmus kelis kilometrus gali pavykti nuvažiuoti jau po pirmų trijų dienų treniravimosi aikštelėje. Iš pradžių važiuoti bus sunku, nes tiesiu šaligatviu važiuojant mėtys į šonus, todėl reiks važiuoti lėtai ir atsargiai. Po savaitės tokių treniruočių važiavimas turėtų būti jau saugus - įveikus dar bent keliolika kilometrų nebebijosite judėti net ir 30 km/h greičiu.</p>
+<h3 id="12-Steps-on-*How-to-Ride-an-Electric-Unicycle*---For-Absolute-Beginners">12 Steps on *<strong>How to Ride an Electric Unicycle</strong>* - For Absolute Beginners<a class="anchor-link" href="#12-Steps-on-*How-to-Ride-an-Electric-Unicycle*---For-Absolute-Beginners">&#182;</a></h3><h4 id="Video-ap%C5%BEvalga">Video ap&#382;valga<a class="anchor-link" href="#Video-ap%C5%BEvalga">&#182;</a></h4><table>
+<thead>
+<tr>
+  <th style="text-align:left">Pratimas</th>
+  <th style="text-align:left">Kiek kartų kartoti</th>
+  <th style="text-align:left">Pastabos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td style="text-align:left"><a href="https://www.youtube.com/watch?v=95Oih2GN718&amp;t=55s">Vienaračio laikymas su pėda ir blauzda</a></td>
+  <td style="text-align:left">30</td>
+  <td style="text-align:left">Pirmiausia pratimą daryti laikant vienaratį su ranka, paskui - be rankos</td>
+</tr>
+<tr>
+  <td style="text-align:left"><a href="https://www.youtube.com/watch?v=95Oih2GN718&amp;t=97s">Atsistojimas ant vienaračio</a></td>
+  <td style="text-align:left">30</td>
+  <td style="text-align:left">Laikantis už atramos užlipti ant vienaračio</td>
+</tr>
+<tr>
+  <td style="text-align:left"><a href="https://www.youtube.com/watch?v=95Oih2GN718&amp;t=146s">Daugiau pėdos ir blauzdos kontrolės: pusapskritimis</a></td>
+  <td style="text-align:left">30 + 30</td>
+  <td style="text-align:left">Uždėjus stipriąją pėdą sukti pusapskritimius iš šono</td>
+</tr>
+<tr>
+  <td style="text-align:left"><a href="https://www.youtube.com/watch?v=95Oih2GN718&amp;t=185s">Važiavimas pirmyn atgal</a></td>
+  <td style="text-align:left">30 + 30</td>
+  <td style="text-align:left">Laikantis už atramos važinėti pirmyn atgal ant abiejų kojų</td>
+</tr>
+<tr>
+  <td style="text-align:left"><a href="https://www.youtube.com/watch?v=95Oih2GN718&amp;t=213s">Važiavimas iš A į B remiantis</a></td>
+  <td style="text-align:left">30 + 30</td>
+  <td style="text-align:left">Pasirinkti du taškus ir laikantis už atramos judėti pirmyn ir atgal</td>
+</tr>
+<tr>
+  <td style="text-align:left"><a href="https://www.youtube.com/watch?v=95Oih2GN718&amp;t=270s">Važiavimas iš A į B minimaliai remiantis</a></td>
+  <td style="text-align:left">30 + 30</td>
+  <td style="text-align:left">Tas pats, tik judant į priekį stengtis nesiremti</td>
+</tr>
+<tr>
+  <td style="text-align:left"><a href="https://www.youtube.com/watch?v=95Oih2GN718&amp;t=324s">Važiavimas iš A į B nesiremiant</a></td>
+  <td style="text-align:left">30 ir daugiau</td>
+  <td style="text-align:left">Tas pats, tik judant į priekį visiškai nesiremti; paskui pratimus kartoti nuo pradžios</td>
+</tr>
+<tr>
+  <td style="text-align:left"><a href="https://www.youtube.com/watch?v=95Oih2GN718&amp;t=414s">Daugiau pėdos ir blauzdos kontrolės: pusapskritimis</a></td>
+  <td style="text-align:left">30</td>
+  <td style="text-align:left">Uždėjus stipriąją pėdą sukti pusapskritimius iš šono</td>
+</tr>
+<tr>
+  <td style="text-align:left"><a href="https://www.youtube.com/watch?v=95Oih2GN718&amp;t=539s">Rato vairavimas viena koja</a></td>
+  <td style="text-align:left">30</td>
+  <td style="text-align:left">Važiuoti į priekį atsispiriant viena koja du kartus; grįžti prie ankstesnių žigsnių, jei reikia</td>
+</tr>
+<tr>
+  <td style="text-align:left"><a href="https://www.youtube.com/watch?v=95Oih2GN718&amp;t=651s">Važiavimas su užlipimu ir nulipimas</a></td>
+  <td style="text-align:left">10 + 30</td>
+  <td style="text-align:left">Pan. kaip ir ankstesniame pratime, bet atsispirti tik vieną kartą; ilginti tarpą tarp atsispyrimų</td>
+</tr>
+<tr>
+  <td style="text-align:left"><a href="https://www.youtube.com/watch?v=95Oih2GN718&amp;t=808s">Ilgesnis važiavimas su užlipimu ir nulipimu</a></td>
+  <td style="text-align:left">30</td>
+  <td style="text-align:left">Tas pats pratimas, tik su ilga važiavimo neatsispiriant trukme</td>
+</tr>
+<tr>
+  <td style="text-align:left"><a href="https://www.youtube.com/watch?v=95Oih2GN718&amp;t=960s">Finalas: posūkiai</a></td>
+  <td style="text-align:left">-</td>
+  <td style="text-align:left">Lingavimas į šonus minant pedalus skirtingu svoriu; vėliau šio žingsnio taikymas darant posūkį</td>
+</tr>
+</tbody>
 </table>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput  celltag_user" data-mime-type="text/markdown">
-<h1 id="What's-the-best-range-for-cheapest-price?">What's the best range for cheapest price?<a class="anchor-link" href="#What's-the-best-range-for-cheapest-price?">&#182;</a></h1><p>No doubt, the winner is one of those with <strong>Gotway</strong> brand. But which one?</p>
+<p>Darant kiekvieną iš pratimų taip pat reikėtų įsidėmėti šiuos principus:</p>
 <ul>
-<li>Take into account you need a huge wheel in order to be able to climb downstairs/upstairs and be safe on bumpy roads</li>
-<li>Take into account you don't want a weight a lot more than 30 kilos because it just wastes a battery and make it impossible to bring</li>
-<li>Personally, I don't think you really need a speed higher than 50km/h or high power (high torque) because we are not living in the republic of mountains</li>
+<li>Pagrindinis visų pratimų tikslas - įgyti pėdų kontrolę. Tai yra, pripratinti kojų raumenis jaustis patogiai, kol dirba naujos pėdos ir blauzdos raumenų grupės. Kuo daugiau pėdos kontrolės, tuo labiau kontroliuosite priemonę (o ne ji jus kontroliuos)</li>
+<li>Darant visus pratimus stengtis kuo mažiau naudotis atrama</li>
+<li>Darant posūkius paskutiniame pratime reikia ne tik pėdų kontrolės, bet ir išmokti valdyti kojų svorius panašiai kaip minant dviračio pedalus. Kai pedalai yra veikiami skirtingu svoriu, atsiranda poreikis surasti patogią pėdų poziciją: kiek kojos turi būti paslinktos į priekį ir kiek jos išskėstos. Ši dalis sunkumų sukelti neturėtų, nes prie patogios pozicijos priprasite su laiku.</li>
 </ul>
-<p>So...</p>
-<ul>
-<li>If you are on a budget (Big no to more than 1k) then Gotway MCM5 is a clever choice (price: 1050€, range: 70km, wheel: 14 inches)</li>
-<li>If you say no to ranges lower than 60km but still on a budget, buy Begode Tesla V2 (price: 1290€, range: 90km, wheel: 16 inches) or Begode Tesla V3 (price: 1600€, range: 130km, wheel: 16inches)</li>
-<li>If you want extremely huge range and still feel safe on a road (it means, huge wheel), not to spend 1k just for the ,,good brand name&quot; (haha), buy Gotway Nikola Plus (price: 1990€, range: 170km, wheel: 17 inches) or Gotway EXN 19`` (price: 2600€, range: 200km, wheel: 20 inches)</li>
-</ul>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput  celltag_user" data-mime-type="text/markdown">
-<h3 id="Range:-km/eur-vs-wheel-size-(so:-safety)">Range: km/eur vs wheel size (so: safety)<a class="anchor-link" href="#Range:-km/eur-vs-wheel-size-(so:-safety)">&#182;</a></h3>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput  celltag_user">
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<iframe width=1000 height=450 src="./price_range_research_plots/vs_wheel.html" frameborder="0"></iframe>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput  celltag_user" data-mime-type="text/markdown">
-<h3 id="Range-km/eur-vs-weight-(so:-flexibility)">Range km/eur vs weight (so: flexibility)<a class="anchor-link" href="#Range-km/eur-vs-weight-(so:-flexibility)">&#182;</a></h3>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput  celltag_user">
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<iframe width=1000 height=500 src="./price_range_research_plots/vs_weight.html" frameborder="0"></iframe>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput  celltag_user" data-mime-type="text/markdown">
-<h3 id="Range-km/eur-vs-power-(so:-ability-to-accelerate-fast)">Range km/eur vs power (so: ability to accelerate fast)<a class="anchor-link" href="#Range-km/eur-vs-power-(so:-ability-to-accelerate-fast)">&#182;</a></h3>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput  celltag_user">
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<iframe width=1000 height=500 src="./price_range_research_plots/vs_power.html" frameborder="0"></iframe>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput  celltag_user" data-mime-type="text/markdown">
-<h3 id="Not-to-mention-waterproof-and-good-support-in-case-of-crashes...">Not to mention waterproof and good support in case of crashes...<a class="anchor-link" href="#Not-to-mention-waterproof-and-good-support-in-case-of-crashes...">&#182;</a></h3><p>The best one is Inmotion. But you'll pay extra 0.5 - 1k just for this ,,good brand name&quot;.</p>
-<p>Gotway has no waterproof at all.</p>
-<p>Looks like one more article is needed...</p>
+<h3 id="Naktinio-Saimono-patirtis">Naktinio Saimono patirtis<a class="anchor-link" href="#Naktinio-Saimono-patirtis">&#182;</a></h3><p>Važiuojant su vienaračiu garantuotai teks ne kartą kristi, tačiau nieko baisaus. Laikantis saugaus greičio (iki 25km/h) dažniausi kritimai būna užkliuvus už bordiūro ar važiuojant duobėtu keliu, bet šie kritimai būna nepavojingi (jei nedalyvaujama judriame eisme), nes vienaratis - tai transporto priemonė, kurią justi ir valdyti galima daug lanksčiau, tad iki bet kurio įvykio dažniausiai greitis būna jau spėjęs sulėtėti, o praradus kontrolę blogiausiu atveju vienaratis išslys iš po kojų ir jūs galėsite atsistoti ant kojų nenuvirtę, priešingai nei su kitomis ne automobilinėmis transporto priemonėmis.</p>
+<p>Įpratus važiuoti greičio poreikis išauga (kai kuriems vienaratininkams net ir 50km/h tampa per mažai), o kartu sumažėja ir savisaugos instiktas kelyje, todėl viršijus saugų 25km/h greitį ir praradus kontrolę dėl nenumatytos kliūties kelyje jau tampa sunku išvengti virtimo. Tokie atvejai reti, bet jų vis tiek gali pasitaikyti (žinoma, stenkitės kelyje nerizikuoti). Tuomet labiausiai kenčia plaštakos ir keliai. Labiausiai patartina pasirūpinti kelių ir riešų apsaugomis. Patirti smūgį galva labai maža tikimybė, tačiau labai baisūs padariniai, todėl pasirūpinkite ir geru šalmu.</p>
+<p>Kas turi baimę, kad elektronika važiuojant atsijungs ir teks prarasti balansą - tai labai retas reiškinys, dažniausiai įvykstantis dėl nesaugaus važiavimo. Tokie atvejai dažniausiai įvyksta dėl per didelės pagreičio arba didesnių nei 70km/h greičių su tokioms apkrovoms nepritaikyta priemone, kai motoro galia viršija baterijos galios pajėgumus. Bet kuria elektrifikuota transporto priemone važinėjant pirmasis nuvažiuotas tūkstantis kilometrų būna pavojingiausias, kol nepriprantama jos valdyti.</p>
 
 </div>
 </div>
