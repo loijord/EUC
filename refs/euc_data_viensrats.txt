@@ -45,5 +45,6 @@ Kingsong,"Kingsong KS-16S V2 680 Wh",35.0,17.0,60.0,16.0,680.0,1200.0
 Leaperkim,"Veteran Sherman Max 3600Wh 100V",75.0,37.0,220.0,20.0,3600.0,2800.0
 Leaperkim,"Veteran Abrams 2700Wh 100V",72.0,44.0,200.0,22.0,2700.0,3500.0
 Leaperkim,"Leaperkim Sherman-S 3600wh 100V",100.0,44.0,230.0,20.0,3600.0,3500.0
+Leaperkim,"Leaperkim Sherman-S 3600wh 100V",100.0,44.0,230.0,20.0,3600.0,3500.0
 Ninebot,"Ninebot ONE S2",24.0,11.4,30.0,14.0,310.0,500.0
 Ninebot,"Ninebot Z10",45.0,26.0,90.0,18.0,996.0,1800.0
